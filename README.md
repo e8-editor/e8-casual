@@ -1,6 +1,13 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/e8-editor/e8/main/docs/assets/banner-ports-dark.png">
+  <img alt="E8 package ports" src="https://raw.githubusercontent.com/e8-editor/e8/main/docs/assets/banner-ports-light.png">
+</picture>
+
+Part of the [E8 package ports](https://github.com/e8-editor/e8#packages): Emacs packages ported to [E8](https://github.com/e8-editor/e8) and maintained with it. This is a port of [Casual](https://github.com/kickingvegas/casual) 2.9.0 by Charles Choi. The design and the original code are theirs; the port keeps upstream's licence, the GNU General Public License version 3 or later.
+
 # e8-casual
 
-Casual's keyboard menu for Dired, for [E8](https://github.com/e8-editor/e8): `casual-dired-tmenu` shows Dired's commands in a transient menu below the Dired window, grouped by what they act on, with menus of their own for sorting, links, changing files, marking by regexp, utilities, searching and settings. A port of [Casual](https://github.com/kickingvegas/casual) 2.9.0.
+Casual's keyboard menu for Dired, for [E8](https://github.com/e8-editor/e8): `casual-dired-tmenu` shows Dired's commands in a transient menu below the Dired window, grouped by what they act on, with menus of their own for sorting, links, changing files, marking by regexp, utilities, searching and settings.
 
 Upstream Casual has menus for many of Emacs's modes (Calc, Info, Org agenda, I-search, Bookmarks and more). This port has only its Dired menu.
 
@@ -46,7 +53,7 @@ Variables:
 
 ## Credit
 
-This is a port to E8 of [Casual](https://github.com/kickingvegas/casual) 2.9.0, by Charles Choi, copyright Charles Y. Choi, distributed in MELPA, under the GNU General Public License version 3 or later. It is not the upstream authors' work as published, and they do not endorse it: report problems with the port here, not upstream.
+Casual 2.9.0 is copyright Charles Y. Choi and distributed in MELPA, under the GNU General Public License version 3 or later. This port is not the upstream authors' work as published, and they do not endorse it: report problems with the port here, not upstream.
 
 ## Developing
 
