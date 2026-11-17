@@ -1,0 +1,29 @@
+casual NEWS -- history of user-visible changes.
+
+This is the news of e8-casual, the E8 port of casual.  'C-h P' shows it
+under the package's description.
+
+
+* Changes in casual 0.1.0
+
+This is the first release, a port of Casual 2.9.0's Dired menus.
+
+** 'casual-dired-tmenu' shows Dired's commands in a transient menu.
+Bind it to '?' in 'dired-mode-map', as Casual suggests.
+
+** Menus of their own sort, link, change, mark by regexp and search.
+They are 'casual-dired-sort-by-tmenu', 'casual-dired-link-tmenu',
+'casual-dired-change-tmenu', 'casual-dired-regexp-tmenu' and
+'casual-dired-search-replace-tmenu'.
+
+** 'casual-dired-utils-tmenu' has Dired's utilities.
+
+** ',' opens 'casual-dired-settings-tmenu', the variables that matter.
+
+** 'C-g' goes back a menu, and 'C-q' closes every menu at once.
+
+** 'casual-lib-use-unicode' shows symbols in the labels, not words.
+
+** 'casual-lib-hide-navigation' leaves out the 'C-g' and 'C-q' entries.
+
+** 'casual-dired-listing-switches' are the switches sorting starts with.
